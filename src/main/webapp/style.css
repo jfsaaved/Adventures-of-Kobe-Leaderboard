@@ -1,0 +1,36 @@
+body{
+	background-image: url("../images/tiled_bg.png");
+	background-repeat: repeat;
+	-webkit-animation: backgroundScroll 20s linear infinite;
+	animation: backgroundScroll 20s linear infinite;
+}
+ 
+@-webkit-keyframes backgroundScroll {
+from {background-position: 0 0;}
+to {background-position: -800px 0;}
+}
+ 
+@keyframes backgroundScroll {
+from {background-position: 0 0;}
+to {background-position: -800px 0;}
+}
+
+#top, #bottom{
+	text-align: center;
+}
+
+#bottom img{
+	height: 20%;
+	width: 20%;
+}
+
+.tbl {
+	width: 60%;
+	padding-top: 20px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.tbl h1, #name{
+	text-align: center;
+}
